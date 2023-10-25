@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto - CAB</title>
+    <link rel="shortcut icon" href="img/cab-ico.ico" type="image/x-icon">
+</head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Esto es para la parte responsiva -->
+
+        <!-- dorsal jordan en su vuelta -->
+
+        <img class="bg" src="img/bg.png" alt="">
+        <div class="menu-conteiner">
+            <img src="img/logo-removebg-preview.png" class="logo" alt="">
+            <!-- <a href="#" class="logo">Logo</a> -->
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-escudo" alt="">
+            </label>
+            <!-- Creamos una barra navegadora -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#volver">Selecciones</a></li>
+                    <li><a href="#prospect">Prospectos</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Inicio de parte agregada -->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/guerra-removebg-preview.png" id="img-cab" alt="">
+                        <div id="carga">
+                            <table id="lista">
+                                <thead>
+                                    <tr>
+                                        <th>Player</th>
+                                        <th>Torneo</th>
+                                        <th>Estadisticas</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <!-- Se llenaria con js cuando podamos manejar base de datos -->
+                                <tbody></tbody>
+                            </table>
+                            <a href="form.html" id="cargar-info" class="btn-3">Loggearse</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- parte nueva agregada final -->
+        
+        <div class="header-content-conteiner">
+                
+            
+            <div class="header-txt"> 
+                <h1> <span>Historia </span>de la CAB</h1>
+                <p>La Confederación Argentina de Básquetbol,también conocida por su acrónimo CABB, tiene sus
+                    raíces en la consolidación del deporte del baloncesto en Argentina. Sus orígenes se remontan a
+                    principios del siglo XX, cuando el baloncesto comenzó a ganar popularidad en el país. A medida
+                    que el deporte ganó seguidores, surgieron diversas asociaciones y clubes dedicados a su práctica
+                    en diferentes regiones de Argentina...
+                </p> 
+                <a href="#" class="btn-1">Mas Informacion</a>
+                <div class="header-img">
+                    <img src="img/23.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="player-conteiner">
+        <h2 id="volver">Noticias</h2>
+        <p>Proximas Concentraciones</p>
+        <div class="player-content">
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <!-- <h3>Seleccion-U15</h3> -->
+                <a href="index.html">Seleccion-U15</a>
+                <!-- Prueba para ver como funciona el agregar paginas a la pagina principal -->
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <!-- <h3>Seleccion-U16</h3> -->
+                <a href="#" id="prueba">Seleccion-U16</a>
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <!-- <h3>Seleccion-U17</h3> -->
+                <a href="#">Seleccion-U17</a>
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <!-- <h3>Seleccion-U18</h3> -->
+                <a href="#">Seleccion-U19</a>
+            </div>
+
+        </div>
+
+    </section> 
+
+
+    <section class="info">
+        <img src="img/bg-2.png" class="bg-2" alt="">
+
+        <div class="info-content-conteiner">
+
+            <div class="info-img">
+                <img src="img/guerra-removebg-preview.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>"Futuras Estrellas del Baloncesto Argentino"</h2>
+                <p>"Descubre a los talentos más prometedores del baloncesto argentino menor de 20 años, tanto en la rama masculina como en la femenina. Estos jóvenes atletas están listos para dejar su marca en la escena nacional e internacional del baloncesto".</p>
+                <a href="#" class="btn-1">Mas Informacion</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <main class="players-conteiner">
+        <h2 id="prospect">Prospectos</h2>
+
+        <div class="box-conteiner" id="lista-1">
+            <div class="box">
+
+                <img src="img/15.jfif" alt="">
+                <div class="players-txt">
+                    <h3>Milagros Morel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptas molestiae repudiandae ex blanditiis inventore aliquam quo in est laboriosam, sunt cumque, reprehenderit ipsam eum ab voluptatum quasi praesentium consequatur.</p>
+                    <p class="condicion">Posicion: Alera</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/07/2007</p>
+                    <p class="condicion">Altura:1,90 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/15.jfif" alt="">
+                <div class="players-txt">
+                    <h3>Nombre-Jugadora</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptas molestiae repudiandae ex blanditiis inventore aliquam quo in est laboriosam, sunt cumque, reprehenderit ipsam eum ab voluptatum quasi praesentium consequatur.</p>
+                    <p class="condicion">Posicion: Alera</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/07/2007</p>
+                    <p class="condicion">Altura:1,90 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/15.jfif" alt="">
+                <div class="players-txt">
+                    <h3>Nombre-Jugadora</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptas molestiae repudiandae ex blanditiis inventore aliquam quo in est laboriosam, sunt cumque, reprehenderit ipsam eum ab voluptatum quasi praesentium consequatur.</p>
+                    <p class="condicion">Posicion: Alera</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/07/2007</p>
+                    <p class="condicion">Altura:1,90 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/15.jfif" alt="">
+                <div class="players-txt">
+                    <h3>Nombre-Jugadora</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptas molestiae repudiandae ex blanditiis inventore aliquam quo in est laboriosam, sunt cumque, reprehenderit ipsam eum ab voluptatum quasi praesentium consequatur.</p>
+                    <p class="condicion">Posicion: Alera</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/07/2007</p>
+                    <p class="condicion">Altura:1,90 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar mas</div>
+
+    </main>
+    <footer class="footer">
+        <section class="footer-content-conteiner" id="contacto">
+            <div class="contenido-seccion">
+                <h2 class="titulo-seccion">Medios de Contacto</h2>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-phone"></i> Telefono
+                        </h2>
+                        <span class="info-contacto">011-4385336</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </h2>
+                        <span class="info-contacto">cab@gmail.com</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-globe"></i> Pagina Web
+                        </h2>
+                        <span class="info-contacto">https://www.argentina.basketball</span>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
